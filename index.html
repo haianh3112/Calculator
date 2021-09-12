@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <h1>CALCULATOR</h1><br>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="ketqua" placeholder="0">
+            <button class="btn btn-primary" onclick="clean()">AC</button>
+            <button class="btn btn-primary" onclick="del()">DEL</button>
+            <button class="btn btn-primary" onclick="myFunction('%')">%</button>
+            <button class="btn btn-primary" onclick="myFunction('+')">+</button>
+            <button onclick="myFunction('1')">1</button>
+            <button onclick="myFunction('2')">2</button>
+            <button onclick="myFunction('3')">3</button>
+            <button class="btn btn-primary" onclick="myFunction('-')" >-</button>
+            <button onclick="myFunction('4')">4</button>
+            <button onclick="myFunction('5')">5</button>
+            <button onclick="myFunction('6')">6</button>
+            <button class="btn btn-primary" onclick="myFunction('*')">*</button>
+            <button onclick="myFunction('7')">7</button>
+            <button onclick="myFunction('8')">8</button>
+            <button onclick="myFunction('9')">9</button>
+            <button class="btn btn-primary" onclick="myFunction('/')">/</button>
+            <button onclick="myFunction('0')">0</button>
+            <button class="btn btn-primary" onclick="myFunction('.')">.</button>
+            <button class="result btn btn-primary" onclick="result()">=</button>
+    </div>
+</div>
+</body>
+<script src="./main.js"></script>
+</html>
